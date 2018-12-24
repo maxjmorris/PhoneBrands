@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PhoneBrands.master.cs" Inherits="PhoneBrands" %>
+
+<!DOCTYPE html>
+
+<html>
+    <head id="Head1" runat="server">
+        <title>Sample Master Page</title>
+        <link href="PhoneBrands.css" rel="stylesheet" type="text/css" />
+        <style type="text/css">
+            .auto-style3 {
+                left: 0%;
+                top: 9%;
+                width: 99%;
+                height: 101px;
+            }
+            .auto-style4 {
+                height: 25px;
+            }
+            .auto-style5 {
+                left: 0%;
+                top: -2%;
+            }
+        </style>
+    </head>
+    <body style="height: 553px">
+        <form id="form1" runat="server" class="auto-style4">
+ 
+             <header class="auto-style5">
+                 Phone Brands</header>
+ 
+            <footer>
+                Footer text here
+            </footer>
+             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+        </form>
+        </body>
+</html>
