@@ -54,7 +54,7 @@ public partial class _Default : System.Web.UI.Page
         if (lstPhones.SelectedIndex != -1)
         {
             //get the primary key value from the list
-            PhoneNo = Convert.ToInt16(lstPhones.SelectedValue);
+            PhoneNo = Convert.ToInt32(lstPhones.SelectedValue);
             //redirect to the editing page 
             Response.Redirect("APhone.aspx?PhoneNo=" +PhoneNo);
         }
